@@ -12,16 +12,24 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <title>senshagen</title>
     </head>
     <body>
-        <div class="app">
+        <nav class="navbar navbar-default sticky-top" role="navigation">
+            <div class="container-fuild">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-center">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Meldingen</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
-                <p class="event listening">App aan het voorbereiden</p>
-                <p class="event received">je kunt gaan werken</p>
             </div>
-        </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="scripts/platformOverrides.js"></script>
         <script type="text/javascript" src="scripts/index.js"></script>
